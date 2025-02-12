@@ -1,3 +1,5 @@
+using System;
+
 class Program
 {
     // Method to simulate a delay of 1 second
