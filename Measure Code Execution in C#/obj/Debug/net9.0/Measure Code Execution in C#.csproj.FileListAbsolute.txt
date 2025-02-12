@@ -1,0 +1,15 @@
+D:\.Net\Problem-Solving\Measure Code Execution in C#\bin\Debug\net9.0\Measure Code Execution in C#.exe
+D:\.Net\Problem-Solving\Measure Code Execution in C#\bin\Debug\net9.0\Measure Code Execution in C#.deps.json
+D:\.Net\Problem-Solving\Measure Code Execution in C#\bin\Debug\net9.0\Measure Code Execution in C#.runtimeconfig.json
+D:\.Net\Problem-Solving\Measure Code Execution in C#\bin\Debug\net9.0\Measure Code Execution in C#.dll
+D:\.Net\Problem-Solving\Measure Code Execution in C#\bin\Debug\net9.0\Measure Code Execution in C#.pdb
+D:\.Net\Problem-Solving\Measure Code Execution in C#\obj\Debug\net9.0\Measure Code Execution in C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\Problem-Solving\Measure Code Execution in C#\obj\Debug\net9.0\Measure Code Execution in C#.AssemblyInfoInputs.cache
+D:\.Net\Problem-Solving\Measure Code Execution in C#\obj\Debug\net9.0\Measure Code Execution in C#.AssemblyInfo.cs
+D:\.Net\Problem-Solving\Measure Code Execution in C#\obj\Debug\net9.0\Measure Code Execution in C#.csproj.CoreCompileInputs.cache
+D:\.Net\Problem-Solving\Measure Code Execution in C#\obj\Debug\net9.0\Measure Code Execution in C#.sourcelink.json
+D:\.Net\Problem-Solving\Measure Code Execution in C#\obj\Debug\net9.0\Measure Code Execution in C#.dll
+D:\.Net\Problem-Solving\Measure Code Execution in C#\obj\Debug\net9.0\refint\Measure Code Execution in C#.dll
+D:\.Net\Problem-Solving\Measure Code Execution in C#\obj\Debug\net9.0\Measure Code Execution in C#.pdb
+D:\.Net\Problem-Solving\Measure Code Execution in C#\obj\Debug\net9.0\Measure Code Execution in C#.genruntimeconfig.cache
+D:\.Net\Problem-Solving\Measure Code Execution in C#\obj\Debug\net9.0\ref\Measure Code Execution in C#.dll
