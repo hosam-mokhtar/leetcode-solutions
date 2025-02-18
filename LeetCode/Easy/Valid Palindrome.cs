@@ -1,19 +1,8 @@
-Link: https://leetcode.com/problems/valid-palindrome/description/
+Link: https://leetcode.com/problems/valid-palindrome/
 Language: C#
 
 public class Solution {
-public bool IsPalindrome(string s)
-        {
-            //ASCII table
-            // a to z || A to Z || 0 to 9
-            //foreach (char c in s)
-            //{
-            //    if (char.IsLetterOrDigit(c))
-            //    {
-            //        sb.Append(c.ToString().ToLower());
-            //    }
-            //}
-            // OR
+public bool IsPalindrome(string s) {
             StringBuilder sb = new StringBuilder();
             foreach (char c in s)
             {
@@ -25,8 +14,7 @@ public bool IsPalindrome(string s)
                 {
                     sb.Append(c);
                 }
-            }
-            Console.WriteLine(sb.ToString());   
+            } 
             for(int i=0;i<sb.Length/2;i++)
             {
                 if (sb[i] != sb[sb.Length-1-i])
