@@ -1,3 +1,6 @@
-# Problem-Solving
-<h3 align="center">LeetCode</h3>
-<p align="center"> <img width="250" src="assets/leetcode.png" /> </p>
+# Problem-Solving in C#
+
+<div align="center">
+  <h3>LeetCode</h3>
+  <img src="assets/leetcode.png" width="250"/>
+</div>
