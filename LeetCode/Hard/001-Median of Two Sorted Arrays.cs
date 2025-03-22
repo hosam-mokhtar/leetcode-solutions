@@ -1,4 +1,4 @@
-Link: https://leetcode.com/problems/median-of-two-sorted-arrays/description/
+Link: https://leetcode.com/problems/counting-words-with-a-given-prefix/
 Language: C#
 
 
@@ -23,7 +23,7 @@ for (int i = 0; i  mergearray.Length; i++)
 }
 Array.Sort(mergearray);
 if (mergearray.Length % 2 == 0)
-    return(mergearray[mergearray.Length  2] + mergearray[mergearray.Length  2 - 1])  2;
+    return(mergearray[mergearray.Length  2] + mergearray[mergearray.Length  2 - 1])  /  2;
 else
     return mergearray[(mergearray.Length  2)];
     }
