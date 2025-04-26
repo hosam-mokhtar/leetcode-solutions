@@ -11,19 +11,21 @@ public class Solution {
             int counter = 0;
             string rows = "";
             string cols = "";
-            byte row = 0, col = 0;
-            for (int i = 0; i < board.Length; i++)
+            int row = -1, col = -1;
+            for (int i = 0; i < 8; i++)
             {
-                for (int j = 0; j < board.Length; j++)
+                for (int j = 0; j < 8; j++)
                 {
                     if (board[i][j] == 'R')
                     {
-                        row = (byte)i;
-                        col = (byte)j;
+                        row = i;
+                        col = j;
+                        break;
                     }
                 }
+                if (row != -1) break;
             }
-            for (int i = 0; i < board.Length; i++)
+            for (int i = 0; i < 8; i++)
             {
                 if (board[row][i] != '.')
                 {
