@@ -6,31 +6,24 @@ Language: C#
 
 
 public class Solution {
-public string[] DivideString(string s, int k, char fill)
-{
-
-    string[] result = new string[(int)Math.Ceiling((decimal)s.Length / k)];
-    int index = 0;
-
-    for (int i = 0; i < s.Length; i += k)
-    {
-        int counter = 0;
-        for (int j = i; j < s.Length; j++)
+        public string[] DivideString(string s, int k, char fill)
         {
-            if (counter < k)
-                result[index] += s[j];
-            else
-                break;
-            counter++;
-        }
-        index++;
-    }
-    
-    while (result[result.Length - 1].Length < k)
-    {
-        result[result.Length - 1] += fill;
-    }
+            int len = s.Length / k;
+            
+            while (len != (float)s.Length / k)
+            {
+                s += fill;
+                len = s.Length / k;
+            }
 
-    return result;
-}
+            string[] result = new string[len];
+            int index = 0;
+
+            for (int i = 0; i < s.Length; i += k)
+            {
+                result[index] = s.Substring(i, k);
+                index++;
+            }
+            return result;
+        }
 }
