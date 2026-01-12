@@ -6,7 +6,7 @@ Tool: MS SQL Server
 
 
 
-SELECT user_id, count(prompt) AS prompt_count, round(sum(tokens) * 1.00 / count(tokens), 2) AS avg_tokens
+SELECT user_id, count(prompt) AS prompt_count, round(avg(tokens * 1.0), 2) AS avg_tokens
 FROM prompts
 GROUP BY user_id
 HAVING count(prompt) > 2 AND max(tokens) > avg(tokens) 
