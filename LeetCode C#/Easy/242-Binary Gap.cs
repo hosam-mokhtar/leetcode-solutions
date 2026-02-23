@@ -11,25 +11,28 @@ Language: C#
 public class Solution {
         public int BinaryGap(int n)
         {
-            string s = Convert.ToString(n, 2);
             int c = 1;
             int max = 0;
-            bool isFlag = false;
+            bool isCount = false;
+            int LSP = n & 1;
 
-            for (int i = 0; i < s.Length; i++)
+            while (n > 0)
             {
-                if (s[i] == '1')
+                if (LSP == 1)
                 {
-                    if (!isFlag)
-                        isFlag = true;
-                    else
+                    if (isCount)
                     {
                         max = Math.Max(max, c);
                         c = 1;
                     }
+                    else
+                        isCount = true;
                 }
-                else
+                else if (isCount)
                     c++;
+
+                n >>= 1;
+                LSP = n & 1;
             }
 
             return max;
