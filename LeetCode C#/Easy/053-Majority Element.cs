@@ -4,19 +4,23 @@ Language: C#
 
 
 public class Solution {
-public int MajorityElement(int[] nums)
+        public int MajorityElement(int[] nums)
         {
-            int c1 = 0, c2 = 0;
-            int m = nums.Length  2;
-            for(int i = 0; i  nums.Length; i++)
+            int element = 0, counter = 0;
+
+            for (int i = 0; i < nums.Length; i++)
             {
-                if (nums[i] == c1)
-                    c2++;
+                if (counter == 0)
+                {
+                    counter++;
+                    element = nums[i];
+                }
+                else if (nums[i] == element)
+                    counter++;
                 else
-                    c2--;
-                if (c2m)
-                    return c1;
+                    counter--;
             }
-            return 0;
+
+            return element;
         }
 }
